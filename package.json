@@ -1,0 +1,29 @@
+{
+  "name": "dcard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "babel": "babel-node ./bin/www.js",
+    "start": "nodemon --exec npm run babel"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.1.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "redis": "^2.8.0",
+    "winston": "^3.2.1",
+    "yarn": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-preset-latest-node": "^3.2.1",
+    "nodemon": "^1.19.4"
+  }
+}

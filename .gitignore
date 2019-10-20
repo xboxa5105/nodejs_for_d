@@ -1,0 +1,17 @@
+# node_modules
+node_modules/
+
+# log file
+log/
+
+# env file
+.env
+
+# redis
+dump.rdb
+
+# eslint config
+.eslintrc.json
+
+# yarn.lock package-lock.json
+*.lock
